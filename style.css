@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+html,
+body {
+  color: #ffffff;
+  background: #000000;
+  font-family: Ubuntu;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #fbff00;
+}
+
+
+a.button1{
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #FFFFFF;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.2s;
+}
+a.button1:hover{
+color:#000000;
+background-color:#ffffff;
+}
+@media all and (max-width:30em){
+a.button1{
+display:block;
+margin:0.4em auto;
+}
+}
+
+/* ZIPPY BUTTONS DRJ24 */
+.button1 {
+  
+  animation: bounce 2s 2; /* Adjust the animation duration */
+}
+.bouncy {
+  
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px); 
+  }
+  100% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0); 
+  } /* This creates a pause */
+  100.1% {
+    transform: translateY(0); 
+  } 
+}

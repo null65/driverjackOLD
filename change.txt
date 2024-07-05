@@ -1,0 +1,29 @@
+These are the code files for the title icon and color changes
+
+
+[Title Icon]
+
+<meta charset="utf-8" />
+
+
+
+        <link
+            rel="icon"
+            href=
+"phone.jpeg"
+            type="image/x-icon"
+        />
+    </head>
+
+    [Notes For JB]
+    upload new update on 10th of july
+
+    [colorchang]
+    <body style="background-color: #000000;">
+
+    [To Make button go to certian point on a page]
+    put this tag where the .html file would be  on the button: Projects.html#pageBottom
+    put this tag at the exact place on the page where you want the button to move to: <div id="pageBottom"></div>
+<!--
+
+<button onclick="history.back()"><img src="img/back arrow.png"></button>
